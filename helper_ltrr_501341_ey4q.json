@@ -1,0 +1,33 @@
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+class MyClass { constructor() { this.property = getRandomString(); } }
+
+orange
+
+function addNumbers(a, b) { return a + b; }
+
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+// This is a comment
+const sum = (a, b) => a + b;
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+grape
+
+const reverseWords = str => str.split(" ").reverse().join(" ");
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+33 - orange
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+38 * 41,49,1,17,77,34,44,75,18,39,51,17,73,88,12,86,71,94,74,63,90,99,64,42,43,14,98,54,14,38,68,60,55,14
+
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+
+98,42,22,30,53,95,92,92,96,91,0,31,37,36,38,31,67,18,18,39,19,45,50,22,49,47,56,91,68,1,31,77,88,2,51,37,56,97,16,81,9,46,18,72,24 + 51,54,32,82,78,99,65,96,4,67,44,57,93,44,25,56,41,62,25,64,24,23,59,48,41,87,24,72,43,49,79,18,77,4,74,60,89,93,29,4,77,79,97,11,1,55,13,56,35,93,49,34,24,8,10,87,22,26,20,55,30,6,16,28,0,94,40,21,67,52,76,42,23,92,14,58,14,87,98,63
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+44,9,67,58,3,43,85,17,1,54,35,29,42,95,33,97,37,88,26,56,65,20,6,98,29,99,21,26,56,3,5,72,78,4,85,69,51,60,1,64,20,50,33,54,67,92,43,85,89,53,58,31,62,78,33,88,44,60,19,37,3,63,81,35,95,16,37,82,37,92,35,97,52,86,94,21,73,86,86,73,72,83,31 + apple
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+const findSmallestNumber = numbers => Math.min(...numbers);
+const capitalizeString = str => str.toUpperCase();
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+
