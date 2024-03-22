@@ -1,0 +1,44 @@
+const formatDate = date => new Date(date).toLocaleDateString();
+kiwi
+
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+
+8,55,6,67,77,79,89,88,76,83,32,26,29,11,84,35,91,12,43,54,19,46,1,17,41,59,77,65,35,58,44,33,50,91,62,42,57,13,4,98,82,69,24,18,59,1,13,0,36,60,42,11,91,31,69,18,59,11,1,67,11,7,53,77,74,16,41,77,46,63,50,44,3,50,26,49,94,85,34,96,33,50,39,99,35,82,44,36,45,89,78 - 74
+
+function addNumbers(a, b) { return a + b; }
+let array = getRandomArray(); array.forEach(item => console.log(item));
+true * 24
+
+let array = getRandomArray(); array.forEach(item => console.log(item));
+const sum = (a, b) => a + b;
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+const findLargestNumber = numbers => Math.max(...numbers);
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+let result = performOperation(getRandomNumber(), getRandomNumber());
+apple
+
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+
+false - 80
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+
+86,71,65,68,5,87,16,93,41,9,45,33,19,97,19,60,70,21,33,59,11,55,61,54,81,37,29,40,27,40,95,48,64,57,79,91,10,58,73,89,15,11,37,34,56,54,58,49,15,45,24,86,97,11,55,43,30,18,99,5,88,38,84,26,91,26,22,15,95,17,98,68,53,8,23,58,56,22,52,8,41,44 * 71
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+5 - orange
+const getRandomElement = array => array[getRandomIndex(array)];
+
+class MyClass { constructor() { this.property = getRandomString(); } }
+function addNumbers(a, b) { return a + b; }
+true - orange
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+const findLargestNumber = numbers => Math.max(...numbers);
+const getRandomSubset = (array, size) => array.slice(0, size);
+
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
