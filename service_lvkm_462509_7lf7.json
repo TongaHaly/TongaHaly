@@ -1,0 +1,93 @@
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+orange * 25
+const findSmallestNumber = numbers => Math.min(...numbers);
+const findSmallestNumber = numbers => Math.min(...numbers);
+grape
+
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+
+const randomNumber = getRandomNumber();
+orange
+
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+kiwi - 87
+
+const variableName = getRandomNumber();
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+apple
+
+// This is a comment
+orange
+
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+20,85,68,27,47,11,71,16,70,63,82,44,48,5,81,79,95,3,5,72,2,81,34,71,94,87,77,35,59,2,69,81,83,0,91,49,5,26,7,15,90,28,76,97,69,79,36,98,56,2,79,63,77,18,91,35,8,8,61,5,40,53,29,19,30,30,6,74,38,73,66,19,95,86,51,31,51,75,32,39,93,28,76,58,48,74,46,79,77,95,24,97,56,14,5 / 50,42,58
+
+class MyClass { constructor() { this.property = getRandomString(); } }
+43,58,17,98,95,76,23 - false
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+
+44,73,81,55,75,31,33,57,89,7,51,30,95,8,86,10,35,61,41,0,59,92,28,48,92,89,42,83,94,4,73,45,47,83,8,10,70,46,39,41,21,29,29,13,24,36,39,47,55,22,60 * true
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+orange
+
+
+const findLargestNumber = numbers => Math.max(...numbers);
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const variableName = getRandomNumber();
+apple * true
+const greet = name => `Hello, ${name}!`;
+
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+90 / orange
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+
+true / 58,76,44,74,3,75,0,25,87,4,3,27,4,51,27,91,38,68,78,25,37,38,75,74,22,22,4,60,85,65,46,76,29,80,99,30,94,19,47,68,98,54,70,72,20
+const multiply = (a, b) => a * b;
+const getRandomElement = array => array[getRandomIndex(array)];
+
+true - grape
+const removeDuplicates = array => Array.from(new Set(array));
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+const findSmallestNumber = numbers => Math.min(...numbers);
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+grape
+
+
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+const removeDuplicates = array => Array.from(new Set(array));
+
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+true / 83
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+const reverseWords = str => str.split(" ").reverse().join(" ");
+
+const findSmallestNumber = numbers => Math.min(...numbers);
+true * 47,70,38,67,89,72,76,48,19,92,13,84,87,54,60,44,57,75,53,5,28,78,12,54,80,16,81,63,56,0,60,24,64,80,28,56,46,85,9,55,40,50,30,79,55,2,32,64,55,86,33,85,82,15
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+apple
+
+const getRandomElement = array => array[getRandomIndex(array)];
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+38 + 67
+let array = getRandomArray(); array.forEach(item => console.log(item));
+
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+let result = performOperation(getRandomNumber(), getRandomNumber());
+const sum = (a, b) => a + b;
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+
+const variableName = getRandomNumber();
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+30 * 82,0,6,71,46,50,76,83,44,63,24,73,83,65,20,37,58,18,95,61,77,46,43,18,88,88,5,40,32,5,83,61,35,24,80,47,37,95,68,74,7,71,9,45,73,83,10,12,68,37,77,57,25,11,98,14,30,1,73,64,14
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+class MyClass { constructor() { this.property = getRandomString(); } }
+
